@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="learnprogramming.academy.imbizo_wil3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="IMBIZO"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Imbizo_WIL3.NoActionBar">
+        <activity
+            android:name=".Main.MainForgotPassword"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Main.MainSignup"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Create.CreateLectureDoc"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Create.AddContent"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main.MainTest"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Create.CreateLecture"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Create.CreateCategory"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main.MainContent"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Main.MainLogin"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

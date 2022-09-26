@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "220527791417",
+    "project_id": "imbizo-wil3",
+    "storage_bucket": "imbizo-wil3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220527791417:android:0bebc1b5770aa7b7b9ece8",
+        "android_client_info": {
+          "package_name": "learnprogramming.academy.imbizo_wil3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220527791417-ectmhmui0mk00r9p4hb47b2gg97p5j8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN1QYUJ8jyJJHYQ-C5r3jPdpvkZPg6qGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220527791417-ectmhmui0mk00r9p4hb47b2gg97p5j8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
